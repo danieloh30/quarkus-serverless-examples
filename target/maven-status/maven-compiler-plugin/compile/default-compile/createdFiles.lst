@@ -1,0 +1,4 @@
+org/acme/getting/started/GreetingResource.class
+org/acme/getting/started/domain/Input.class
+org/acme/getting/started/domain/Output.class
+org/acme/getting/started/ToUppercaseFunction.class
