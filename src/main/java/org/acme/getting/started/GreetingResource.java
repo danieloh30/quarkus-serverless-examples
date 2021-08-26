@@ -13,12 +13,12 @@ public class GreetingResource {
     // @GET
     // @Produces(MediaType.TEXT_PLAIN)
     // public String hello() {
-    //     return "Quarkus Serverless Function on Kubernetes";
+    //     return "Welcome, Quarkus Serverless Functions Ref.Card";
     // }
 
-    @Funq
+    @Funq("awsfunction")
     public String hello() {
-        return "Quarkus Funqy Serverless Function on Kubernetes";
+        return "Hi, Quarkus Funqy on AWS Lambda";
     }
 
 }

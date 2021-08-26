@@ -7,11 +7,11 @@
 #
 # Then, build the image with:
 #
-# docker build -f src/main/docker/Dockerfile.native-distroless -t quarkus/quarkus-serverless-restapi .
+# docker build -f src/main/docker/Dockerfile.native-distroless -t quarkus/quarkus-serverless-examples .
 #
 # Then run the container using:
 #
-# docker run -i --rm -p 8080:8080 quarkus/quarkus-serverless-restapi
+# docker run -i --rm -p 8080:8080 quarkus/quarkus-serverless-examples
 #
 ###
 FROM quay.io/quarkus/quarkus-distroless-image:1.0
