@@ -15,7 +15,7 @@ public class GreetingResourceTest {
           .when().get("/hello")
           .then()
              .statusCode(200)
-             .body(is("Welcome, Quarkus Serverless Functions Ref.Card"));
+             .body(is("Hello RESTeasy"));
     }
 
 }
